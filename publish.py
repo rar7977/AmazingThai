@@ -1,7 +1,7 @@
 # publish.py — 폴더 안의 사진(1~10장)과 caption.txt를 인스타에 올립니다
 import os, sys, glob, time, urllib.parse, requests
 
-API = "https://graph.instagram.com/v21.0"
+API = "https://graph.facebook.com/v21.0"
 USER = os.environ["IG_USER_ID"]
 TOKEN = os.environ["IG_ACCESS_TOKEN"]
 BASE = os.environ["IMG_BASE"].rstrip("/")
